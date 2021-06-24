@@ -8,12 +8,6 @@
 .menu {
     grid-area: menu;
 }
-.main {
-    grid-area: main; 
-}
-.right {
-    grid-area: right;
-}
 .sectionSupp {
     grid-area: paragraphe;
 }
@@ -39,7 +33,7 @@
 .container {
     display: grid;
     grid-template-areas:    "header header header"
-                            "menu main right"
+                            "menu menu menu"
                             "paragraphe paragraphe paragraphe"
                             "bloc1 bloc2 bloc3"
                             "footer footer footer";
@@ -118,8 +112,6 @@ p {
     .container {
         grid-template-areas:    "header"
                                 "menu"
-                                "main"
-                                "right"
                                 "paragraphe"
                                 "bloc1"
                                 "bloc2"
@@ -128,3 +120,5 @@ p {
      
     }
 }
+
+
