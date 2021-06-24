@@ -1,0 +1,16 @@
+header {
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: auto;
+    padding-top: 260px;
+    padding-left: 150px;
+    font-family: 'Raleway Dots', cursive;
+    font-weight: lighter;
+}
+
