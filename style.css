@@ -104,6 +104,15 @@ a:link {
     color: yellow;
   }
 
+/* BLOCS AVEC IMAGE*/
+.imageBloc {
+    max-width: 90%;
+}
+
+p {
+    font-size: 80%;
+}
+
 /* Media Query */
 @media screen and (max-width: 640px) {
     .container {
