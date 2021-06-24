@@ -1,16 +1,117 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+ /* DEFINITION DES ELEMENTS DANS LE GRID*/
+.header {
+    grid-area: header; 
+}
+.menu {
+    grid-area: menu;
+}
+.main {
+    grid-area: main; 
+}
+.right {
+    grid-area: right;
+}
+.sectionSupp {
+    grid-area: paragraphe;
+}
+.bloc1 {
+    grid-area: bloc1;
+}
+
+.bloc2 {
+    grid-area: bloc2;
+}
+
+.bloc3 {
+    grid-area: bloc3;
+}
+
+
+.footer {
+    grid-area: footer;
+}
+
+/* CONTAINER */
+
+.container {
+    display: grid;
+    grid-template-areas:    "header header header"
+                            "menu main right"
+                            "paragraphe paragraphe paragraphe"
+                            "bloc1 bloc2 bloc3"
+                            "footer footer footer";
+    background-color: #F33230;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* .container > div veut dire qu'on sélectionne les div enfants de container*/
+.container > div {
+    background-color: #FAC8C8;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/*HEADER - IMAGE ET TITRE */
+
 header {
     background-image: url('header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 80%;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 600%;
     margin-top: auto;
-    padding-top: 260px;
-    padding-left: 150px;
-    font-family: 'Raleway Dots', cursive;
+    padding-top: 23%;
+    padding-left: 10%;
+    font-family: 'Raleway Dots', sans-serif;
     font-weight: lighter;
 }
+/* NAV BAR */
 
+.navigation {
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+#active {
+    font-weight: bolder;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+/* Media Query */
+@media screen and (max-width: 640px) {
+    .container {
+        grid-template-areas:    "header"
+                                "menu"
+                                "main"
+                                "right"
+                                "footer"
+     
+    }
+}
