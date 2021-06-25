@@ -78,6 +78,16 @@ nav {
 
 #onpage {
     font-weight: bold;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+#menuBurger {
+    display: none;
+}
+
+#searchBar {
+    display: none;
 }
 
 /* unvisited link */
@@ -125,6 +135,19 @@ p {
     header {
         font-size: 50%;
     }
+
+
+#menuBurger {
+    display: block;
 }
 
+#searchBar {
+    display: block;
+}
+
+.navigation, label, input, button {
+    display: none;
+}
+
+}
 
