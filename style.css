@@ -127,7 +127,7 @@ p {
 }
 
 /* Media Query */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
     .container {
         grid-template-areas:    "header"
                                 "menu"
