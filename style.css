@@ -46,7 +46,6 @@
 .container > div {
     background-color: #FAC8C8;
     text-align: center;
-    
 }
 
 /*HEADER - IMAGE ET TITRE */
@@ -61,7 +60,7 @@ header {
 h1 {
     font-size: 600%;
     margin-top: auto;
-    padding-top: 20%;
+    padding-top: 22%;
     padding-left: 10%;
     font-family: 'Raleway Dots', sans-serif;
     font-weight: lighter;
@@ -103,6 +102,7 @@ a:link {
   /* mouse over link */
   a:hover {
     color: white;
+    background-color: #FFC5C6;
   }
   
   /* selected link */
@@ -113,11 +113,12 @@ a:link {
 /* BLOCS AVEC IMAGE*/
 .imageBloc {
     max-width: 80%;
-    max-height: 190px;
+    max-height: 175px;
 }
 
 p {
     font-size: 100%;
+    padding: 1%;
 }
 
 /* Media Query */
@@ -137,17 +138,16 @@ p {
         font-size: 50%;
     }
 
+    #menuBurger {
+        display: block;
+    }
 
-#menuBurger {
-    display: block;
+    #searchBar {
+        display: block;
 }
 
-#searchBar {
-    display: block;
-}
-
-.navigation, label, input, button {
-    display: none;
+    .navigation, label, input, button {
+        display: none;
 }
 
 }
