@@ -112,7 +112,8 @@ a:link {
 
 /* BLOCS AVEC IMAGE*/
 .imageBloc {
-    max-width: 90%;
+    max-width: 80%;
+    max-height: 190px;
 }
 
 p {
