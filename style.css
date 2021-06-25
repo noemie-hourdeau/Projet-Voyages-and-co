@@ -23,7 +23,6 @@
     grid-area: bloc3;
 }
 
-
 .footer {
     grid-area: footer;
 }
@@ -70,6 +69,12 @@ nav {
     text-align: center;
 }
 
+.navMobile {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .navigation {
     font-size: 18px;
     padding: 2%;
@@ -113,7 +118,7 @@ a:link {
 /* BLOCS AVEC IMAGE*/
 .imageBloc {
     max-width: 80%;
-    max-height: 175px;
+    max-height: 180px;
 }
 
 p {
